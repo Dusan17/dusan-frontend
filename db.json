@@ -1,0 +1,13 @@
+{
+    "home" : {
+        "aboutUs" : {
+            "title" : "GET TO KNOW US A LITTLE BETTER!",
+            "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    },
+    "aboutUs" : {
+        "content" : "Lorem ipsum dolor sit amet, eu per timeam vituperata, fierent persecuti ex vel. Quo ei decore vulputate, illum meliore tractatos vix et. Meis iusto salutatus est et. Ut primis expetenda usu, eu latine adipisci pro. Exerci audire impetus eu has, cum te unum persius. Cu dictas erroribus usu, ea admodum argumentum necessitatibus duo. Et vix accumsan percipit, suas elaboraret scribentur usu at, te qui minim cotidieque.\n\nEx hinc accumsan perfecto duo. Doctus euismod dolorum vix cu, velit ubique alienum ad eam, mei ad ipsum simul regione. Eam quot pertinacia posidonium ea, mel ne option facilis comprehensam. Mei cu prima dicat libris, eu affert tollit copiosae has. His ludus atomorum honestatis in, nec ea percipit sensibus contentiones. Eum at tempor bonorum, ei his sumo lorem recteque, an pri populo regione euismod.",
+        "missionStatement": "Lorem ipsum dolor sit amet, eu per timeam vituperata, fierent persecuti ex vel. Quo ei decore vulputate, illum meliore tractatos vix et. Meis iusto salutatus est et. Ut primis expetenda usu, eu latine adipisci pro. Exerci audire impetus eu has, cum te unum persius. Cu dictas erroribus usu, ea admodum argumentum necessitatibus duo. Et vix accumsan percipit, suas elaboraret scribentur usu at, te qui minim cotidieque.",
+        "fanFacts": "Lorem ipsum dolor sit amet, eu per timeam vituperata, fierent persecuti ex vel. Quo ei decore vulputate, illum meliore tractatos vix et. Meis iusto salutatus est et. Ut primis expetenda usu, eu latine adipisci pro. Exerci audire impetus eu has, cum te unum persius. Cu dictas erroribus usu, ea admodum argumentum necessitatibus duo. Et vix accumsan percipit, suas elaboraret scribentur usu at, te qui minim cotidieque."
+    }
+}

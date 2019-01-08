@@ -1,0 +1,45 @@
+<div class="work-page">
+    <app-page-header title="Check out what i can do"></app-page-header>
+    <div class="work-actions-wrapper">
+        <div class="work-actions">
+            <div class="filter-actions">
+                <div class="filter-action"
+                     [ngClass]="{'active-filter': activeFilter === 'all'}"
+                     (click)="applyFilter('all')">
+                    All  /</div>
+                <div class="filter-action"
+                     [ngClass]="{'active-filter': activeFilter === category.print}"
+                     (click)="applyFilter(category.print)">
+                    Print  /</div>
+                <div class="filter-action"
+                     (click)="applyFilter(category.photography)"
+                     [ngClass]="{'active-filter': activeFilter === category.photography}"
+                >Photography  /</div>
+                <div class="filter-action"
+                     (click)="applyFilter(category.web)"
+                     [ngClass]="{'active-filter': activeFilter === category.web}"
+                >Web  /</div>
+                <div class="filter-action"
+                     (click)="applyFilter(category.applications)"
+                     [ngClass]="{'active-filter': activeFilter === category.applications}"
+                >Applications</div>
+            </div>
+            <div class="view-actions">
+                <div style="margin-right: 10px; cursor: pointer" (click)="gridView = true">
+                    <img src="assets/icons/grid_view.svg" alt="">
+                </div>
+                <div style="cursor: pointer" (click)="gridView = false">
+                    <img src="assets/icons/list_view.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works-wrapper">
+        <div class="row works justify-content-center">
+            <div class="col-md-4 work-image" [ngClass]="{'col-md-8': gridView === false}" *ngFor="let work of filterWorks">
+                <img [src]="work.image" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+

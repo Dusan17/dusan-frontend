@@ -1,0 +1,52 @@
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.title {
+    width: 70%;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-services-wrapper {
+    color: grey;
+}
+.tabs-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    background: #6b6a6a1f;
+}
+.tabs {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100%;
+}
+.tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.tab-item:hover {
+    background: #6b6a6a;
+    color: white;
+    cursor: pointer;
+}
+.active-tab {
+    background: #6b6a6a;
+    color: white;
+    cursor: pointer;
+}
+.tab-content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.tab-content {
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

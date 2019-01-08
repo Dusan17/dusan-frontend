@@ -1,0 +1,29 @@
+<div class="about-services-wrapper">
+    <div class="title-wrapper">
+        <div class="title">
+            Services
+        </div>
+    </div>
+    <div class="tabs-wrapper">
+        <div class="tabs">
+            <div class="tab-item" (click)="activeTab = 'web'" [ngClass]="{'active-tab' : activeTab === 'web'}">websites</div>
+            <div class="tab-item" (click)="activeTab = 'photo'" [ngClass]="{'active-tab' : activeTab === 'photo'}">photography</div>
+            <div class="tab-item" (click)="activeTab = 'seo'" [ngClass]="{'active-tab' : activeTab === 'seo'}">seo</div>
+            <div class="tab-item" (click)="activeTab = 'app'" [ngClass]="{'active-tab' : activeTab === 'app'}">applications</div>
+        </div>
+    </div>
+    <div class="tab-content-wrapper">
+        <div class="tab-content" *ngIf="activeTab === 'web'">
+            Web
+        </div>
+        <div class="tab-content" *ngIf="activeTab === 'photo'">
+            Photo
+        </div>
+        <div class="tab-content" *ngIf="activeTab === 'seo'">
+            Seo
+        </div>
+        <div class="tab-content" *ngIf="activeTab === 'app'">
+            App
+        </div>
+    </div>
+</div>
